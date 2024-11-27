@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatedPdfGenerator.Api", "TemplatedPdfGenerator.Api\TemplatedPdfGenerator.Api.csproj", "{40E7EF91-8FDC-42AB-B377-D075AC2D38D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatedPdfGenerator.Services", "TemplatedPdfGenerator.Services\TemplatedPdfGenerator.Services.csproj", "{D15686A2-956F-415B-9ACD-5C0FFCA6F145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatedPdfGenerator.PdfRenderer.PuppeteerSharp", "TemplatedPdfGenerator.PdfRenderer.PuppeteerSharp\TemplatedPdfGenerator.PdfRenderer.PuppeteerSharp.csproj", "{16877FAF-B3BC-4416-87FF-444F9BBA9314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatedPdfGenerator.Infrastructure", "TemplatedPdfGenerator.Infrastructure\TemplatedPdfGenerator.Infrastructure.csproj", "{5B4CA33B-2D74-47E7-93F9-267854524FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatePdfGenerator.TemplateEngine.Scriban", "TemplatePdfGenerator.TemplateEngine.Scriban\TemplatePdfGenerator.TemplateEngine.Scriban.csproj", "{3313AC2A-2FDE-42F5-9F8C-1DB93736B35C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40E7EF91-8FDC-42AB-B377-D075AC2D38D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E7EF91-8FDC-42AB-B377-D075AC2D38D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E7EF91-8FDC-42AB-B377-D075AC2D38D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E7EF91-8FDC-42AB-B377-D075AC2D38D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15686A2-956F-415B-9ACD-5C0FFCA6F145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15686A2-956F-415B-9ACD-5C0FFCA6F145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15686A2-956F-415B-9ACD-5C0FFCA6F145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15686A2-956F-415B-9ACD-5C0FFCA6F145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16877FAF-B3BC-4416-87FF-444F9BBA9314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16877FAF-B3BC-4416-87FF-444F9BBA9314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16877FAF-B3BC-4416-87FF-444F9BBA9314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16877FAF-B3BC-4416-87FF-444F9BBA9314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4CA33B-2D74-47E7-93F9-267854524FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4CA33B-2D74-47E7-93F9-267854524FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4CA33B-2D74-47E7-93F9-267854524FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4CA33B-2D74-47E7-93F9-267854524FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3313AC2A-2FDE-42F5-9F8C-1DB93736B35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3313AC2A-2FDE-42F5-9F8C-1DB93736B35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3313AC2A-2FDE-42F5-9F8C-1DB93736B35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3313AC2A-2FDE-42F5-9F8C-1DB93736B35C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
