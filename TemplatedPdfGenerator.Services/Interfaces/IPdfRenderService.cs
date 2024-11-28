@@ -1,6 +1,8 @@
-﻿namespace TemplatedPdfGenerator.Services.Interfaces;
+﻿using System.Text.Json;
+
+namespace TemplatedPdfGenerator.Services.Interfaces;
 
 public interface IPdfRenderService
 {
-    Task<Stream> GenerateAsync(string pdfTemplateName, object bodyContent);
+    Task<Stream> GenerateAsync(string templateName, Dictionary<string, JsonElement> placeholderData);
 }

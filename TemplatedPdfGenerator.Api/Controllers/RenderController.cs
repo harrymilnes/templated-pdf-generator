@@ -18,10 +18,10 @@ public class RenderController : ControllerBase
     [HttpPost("render")]
     public async Task<IActionResult> RenderAsync([FromBody] RenderRequest renderRequest)
     {
-        if (renderRequest.TemplateName == null || renderRequest.Content == null)
+        if (renderRequest.TemplateName == null || renderRequest.PlaceholderData == null)
             return BadRequest();
         
-        var content = await _pdfRenderService.GenerateAsync(renderRequest.TemplateName!, renderRequest.Content!);
+        var content = await _pdfRenderService.GenerateAsync(renderRequest.TemplateName, renderRequest.PlaceholderData);
         return File(content, "application/pdf");
     }
 }
